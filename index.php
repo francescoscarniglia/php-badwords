@@ -18,43 +18,43 @@
 ?><!-- END PHP -->
 
 <header>
-
   <h2>Vars</h2>
   <p>
   <?php echo ucfirst($id_name); ?> : <?php echo $text;?>
   </p>
+  </header>
 
-  <h2> <?php echo ucfirst($id_name);?></h2>
-  <p>
-    <?php echo $words[0];?>
-  </p>
-  <p>
-    <?php echo $words[1];?>
-  </p>
-  <p>
-    <?php echo $words[2];?>
-  </p>
-  <p>
-    <?php echo $words[3];?>
-  </p>
+  <main>
+    <h2> <?php echo ucfirst($id_name);?></h2>
+    <p>
+      <?php echo $words[0];?>
+    </p>
+    <p>
+      <?php echo $words[1];?>
+    </p>
+    <p>
+      <?php echo $words[2];?>
+    </p>
+    <p>
+      <?php echo $words[3];?>
+    </p>
 
-  <p>
-    <?php echo $words[4];?>
-  </p>
+    <p>
+      <?php echo $words[4];?>
+    </p>
 
-  <p>
-    <?php echo $words[5];?>
-  </p>
+    <p>
+      <?php echo $words[5];?>
+    </p>
 
-  <p>
-    La lunghezza del paragrafo è: <strong> <?php echo $lengthString;?> </strong>
-  </p>
+    <p>
+      La lunghezza del paragrafo è: <strong> <?php echo $lengthString;?> </strong>
+    </p>
 
-  <p>
-    Sotituzione stringa : <?php echo $replaced;?>
-  </p>
-
-</header>
+    <p>
+      Sotituzione stringa : <?php echo $replaced;?>
+    </p>
+  </main>
 
 </body>
 </html>
